@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-primary: #d4af35;
+  --font-display: "Public Sans", sans-serif;
+}
+
+@layer base {
+  :root {
+    --bg-main: 248 247 246;
+    --bg-surface: 255 255 255;
+    --border-color: 226 232 240;
+    --text-primary: 15 23 42;
+    --text-secondary: 71 85 105;
+    --text-muted: 100 116 139;
+  }
+
+  .dark {
+    --bg-main: 26 26 36;
+    --bg-surface: 37 37 51;
+    --border-color: 55 65 81;
+    --text-primary: 241 245 249;
+    --text-secondary: 203 213 225;
+    --text-muted: 148 163 184;
+  }
+
+  body {
+    font-family: var(--font-display);
+    color: rgb(var(--text-primary));
+    background-color: rgb(var(--bg-main));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: max(600px, 100dvh);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .glass-header {
+    background: rgba(var(--bg-main), 0.95);
+    backdrop-filter: blur(10px);
+  }
+}
