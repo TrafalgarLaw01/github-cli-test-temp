@@ -14,9 +14,11 @@ export const contactInfo = {
 };
 
 export const expertInfo = {
-    title: "Juan M. Montiel",
+    title: "Juan Marcel Montiel Santander",
     subtitle: "Doutorando e Mestre em Ciências Criminais pela PUCRS",
+    subtitle2: "Presidente da Comissão de Criminalistas de Ponta Porã",
     description: "Uma trajetória acadêmica sólida aplicada à prática jurídica mais exigente.",
+    extraDescription: "Obra publicada pela Ed. LumenJuris, e em processo de finalização de Doutorado com pesquisa em Organizações Criminosas no Brasil, Estados Unidos e Itália, a ser finalizado em 2027.",
     articlesLink: "https://editorial.tirant.com/br/libro/i-seminario-internacional-o-fim-do-direito-as-penas-privativas-de-liberdade-de-curta-duracao-alexis-couto-de-brito-E000020005814",
     dissertationLink: "https://tede2.pucrs.br/tede2/handle/tede/9784"
 };
@@ -34,8 +36,8 @@ export const expertiseAreas = [
     },
     {
         icon: Users,
-        title: "Tribunal do Júri",
-        description: "Defesa especializada em crimes dolosos contra a vida, unindo técnica jurídica e oratória persuasiva."
+        title: "Casos de Alta Complexidade",
+        description: "Casos de complexidade em Tráfico de Drogas, Organizações Criminosas e Crimes Políticos-Administrativos."
     },
     {
         icon: ArrowUpRight,
